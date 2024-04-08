@@ -1,0 +1,91 @@
+/* Fonts and Basic Styles */
+@font-face {
+  font-family: "Computer Modern";
+  src: url('./fonts/cmunss.ttf');
+}
+
+@font-face {
+  font-family: "Computer Modern Bold";
+  src: url('./fonts/cmunsx.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Computer Modern Italic";
+  src: url('./fonts/cmunsi.ttf');
+  font-style: italic, oblique;
+}
+
+/* Color Definitions */
+:root {
+  --oxfordblue: rgb(0, 32, 68);
+  --dukenavy: rgb(1, 33, 105);
+  --dukeroyal: rgb(0, 83, 155);
+  --bigred: rgb(217, 22, 0);
+  --glassgrey: rgb(220, 220, 220);
+  --darkred: rgb(255, 21, 0);
+  --aoenglish: rgb(0, 128, 0);
+  /* Converted from {rgb}{0.0,0.5,0.0} */
+}
+
+/* Applying Colors */
+.reveal .title,
+.reveal .subtitle,
+.reveal .author,
+.reveal .date,
+.reveal .institute,
+.reveal .section-title,
+.reveal .subsection-title,
+.reveal .frametitle,
+.reveal .page-number {
+  color: var(--dukenavy);
+}
+
+.slides {
+  outline-style: solid;
+  outline-offset: 1rem;
+  outline-width: 1px;
+  outline-color: var(--oxfordblue);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-weight: normal !important;
+  margin-bottom: 1rem !important;
+  margin-left: 0.5rem !important;
+  margin-top: 0.5rem !important;
+  font-family: "Computer Modern";
+  color: var(--dukenavy);
+}
+
+.reveal {
+  background-color: var(--glassgrey);
+  color: black;
+  /* Assuming 'normal text' applies to general text color */
+}
+
+.reveal a {
+  color: var(--dukeroyal);
+  /* Assuming you want links in 'dukeroyal' */
+}
+
+/* Specific Block Styles (assuming custom classes for Reveal.js) */
+.reveal .title {
+  margin-bottom: 18rem !important;
+}
+
+.reveal .progress {
+  background: var(--glassgrey);
+  color: var(--dukeroyal);
+  height: 1%;
+}
+
+.scrollable {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: 100%;
+}

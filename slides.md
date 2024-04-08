@@ -14,7 +14,11 @@ height: 1080
 width: 1920
 slideNumber: true
 scrollable: true
-css: theme/beamer.css
+css: theme/duke.css
+title-slide-attributes:
+    data-background-image: theme/logos/duke.png
+    data-background-size: 15%
+    data-background-position: 50% 50%
 ---
 
 # H1 header
@@ -49,7 +53,7 @@ css: theme/beamer.css
 
 # Syntax
 
-## Math blocks
+## Math blocks {.logo}
 
 \begin{equation}
   \begin{aligned}
@@ -60,7 +64,7 @@ css: theme/beamer.css
 \end{equation}
 
 
-## Code blocks
+## Code blocks {.logo}
 
 ```{.r .scrollable}
 #| fig-height: 8
