@@ -1,6 +1,6 @@
 # md-slides
 
-Make use of [Quarto]() to generate revealjs HTML slides from markdown
+Make use of [Quarto](https://quarto.org/) to generate revealjs HTML slides from markdown
 
 ## Usage
 
