@@ -58,7 +58,7 @@ title-slide-attributes:
 
 # Syntax
 
-## Math blocks {.logo}
+## Math blocks
 
 \begin{equation}
   \begin{aligned}
@@ -69,7 +69,7 @@ title-slide-attributes:
 \end{equation}
 
 
-## Code blocks {.logo}
+## Code blocks
 
 ```{.r .scrollable}
 #| fig-height: 8
