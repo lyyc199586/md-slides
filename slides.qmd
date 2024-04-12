@@ -2,19 +2,20 @@
 title: MD Slides
 author: Yangyunchen Liu
 data: March 29, 2024
+format: 
+  revealjs:
+    theme: simple
+    logo: theme/logos/duke-foot.png
+    css: theme/duke.css
+    slide-number: true
+    show-slide-number: all
+    width: 1920
+    height: 1080
 bibliography: ./refs/bib.bib
-
-# beamer var
-aspectratio: 169
 institute: Duke University
+highlight-style: atom-one
 
-# revealjs var
-theme: simple
-height: 1080
-width: 1920
-slideNumber: true
-scrollable: true
-css: theme/duke.css
+# title page
 title-slide-attributes:
     data-background-image: theme/logos/duke.png
     data-background-size: 15%
@@ -46,10 +47,14 @@ title-slide-attributes:
 ::::
 
 :::: {.column width=50%}
-![Some picture](https://placehold.co/600x400/png)
+![Some picture](./media/png.png)
 ::::
 
 :::
+
+## Show movie
+
+![my cell simulation](./media/single_np4.mp4)
 
 # Syntax
 

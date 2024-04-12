@@ -1,9 +1,10 @@
 # md-slides
-use pandoc to generate HTML and pdf slides from markdown
 
-## Build
+Make use of [Quarto]() to generate revealjs HTML slides from markdown
 
-`make html`
+## Usage
+
+`quarto preview /path/to/slides.qmd`
 
 ## Example
 

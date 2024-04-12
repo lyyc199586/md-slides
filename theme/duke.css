@@ -41,12 +41,12 @@
   color: var(--dukenavy);
 }
 
-.slides {
+/* .slides {
   outline-style: solid;
   outline-offset: 1rem;
   outline-width: 1px;
   outline-color: var(--oxfordblue);
-}
+} */
 
 .reveal h1,
 .reveal h2,
@@ -111,8 +111,7 @@
   height: 1%;
 }
 
-.scrollable {
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
-  height: 100%;
+figcaption {
+  margin: auto;
+  text-align: center;
 }
